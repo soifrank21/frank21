@@ -1,0 +1,25 @@
+h1{
+    color: white;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/490/4/927/2015-bike-fz-07-motorbike-wallpaper-preview.jpg");
+    background-size: 35%;
+    text-align: center;
+}
+
+button{
+    background: red;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px; 
+}
+
+img{
+    width: 20%;
+    border-radius: 50%;
+}
