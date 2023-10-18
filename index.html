@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> ❤️ ️QUIERES SER MI NOVIA ❤️ </title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body class="body">
+    <H1 class="body__tittle"> 😍​HERMOSA MADELEEY😍​ </H1> 
+    <H1 class="body__tittle"> ❤️ ¿QUIERES SER MI NOVIA? ❤️ </H1>  
+    <img src="https://i.pinimg.com/originals/bb/44/31/bb443121ad72a89bbb63451ba21cc166.jpg"
+     alt="f"/>
+    <div class="btn">
+            <button id="yes"> 🥰​Claro Que SI🥰​</button>
+
+            <button id="no">NO ​😤​</button>
+    </div>
+
+    
+
+    <script>
+    const vutonSi = document.getElementById('yes');
+    const vutonNo = document.getElementById('no');
+
+    const somosNovios = () => {
+        alert('💞​Sabia Que Dirias Que SI 💞​');
+        alert('💑​Nuestra Boda Es Mañana💑​');
+    };
+
+    const buttonNO = () => {
+        vutonNo.style.position = 'absolute';
+        vutonNo.style.top = (Math.random()* window.innerHeight) + 'px';
+        vutonNo.style.left = (Math.random()* window.innerHeight) + 'px';
+    };
+
+    vutonSi.addEventListener('click', somosNovios);
+    vutonNo.addEventListener('mouseover', buttonNO);
+    </script>
+
+</body>
+
+</html>
